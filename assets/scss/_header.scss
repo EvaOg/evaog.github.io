@@ -1,0 +1,98 @@
+@import "variables";
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: $sideBackgroundColor;
+  overflow-y: auto;
+}
+
+#header .profile img {
+  margin: 25px auto;
+  display: block;
+  width: 130px;
+}
+
+#header .profile h1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+  color: $whiteTextColor;
+  text-decoration: none;
+}
+
+#header .profile .social-links a {
+  font-size: 23px;
+  display: inline-block;
+  color: $whiteTextColor;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .profile .social-links a:hover {
+  background: $bigIcons;
+  color: $whiteTextColor;
+  text-decoration: none;
+}
+
+.codesandbox {
+  margin: 0 auto 0 auto !important;
+  display: block;
+  width: 24px !important;
+  display: inline-block;
+  content: url("../img/codesandbox.png");
+}
+
+.codesandboxA {
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+.container,
+.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

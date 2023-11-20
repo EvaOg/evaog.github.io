@@ -1,0 +1,66 @@
+@import "variables";
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: $font-default;
+  color: $firstPageBackgroundColor;
+}
+
+a {
+  color: $bigIcons;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $headersTextColor;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: $bigIcons;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+
+  i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+
+  &:hover {
+    background: $hover;
+    color: $headersTextColor;
+  }
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+//
+.mobile-nav-toggle {
+  background-color: $bigIcons !important;
+}
