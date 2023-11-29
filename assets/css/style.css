@@ -984,4 +984,10 @@ input:focus:invalid {
   border: 1px solid #dc3545;
 }
 
+@media (max-width: 800px) {
+  .visibletill800 {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

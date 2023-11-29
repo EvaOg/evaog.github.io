@@ -582,3 +582,9 @@ svg {
 input:focus:invalid {
   border: 1px solid $red;
 }
+
+@media (max-width: 800px) {
+  .visibletill800 {
+    display: none;
+  }
+}
