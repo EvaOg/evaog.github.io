@@ -887,7 +887,7 @@ svg {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #8590c0;
   border: 0;
   padding: 10px 24px;
@@ -896,7 +896,7 @@ svg {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #996699;
 }
 
@@ -985,7 +985,7 @@ input:focus:invalid {
 }
 
 @media (max-width: 800px) {
-  .visibletill800 {
+  .unvisibletill800 {
     display: none;
   }
 }
