@@ -455,7 +455,6 @@ section {
 #skills {
   min-height: 35vh;
   padding-top: 90px;
-  padding-bottom: 85px;
 }
 
 .container-icons {
@@ -517,7 +516,6 @@ svg {
 --------------------------------------------------------------*/
 #resume {
   padding-top: 90px;
-  padding-bottom: 90px;
   background-color: #f9fafc;
 }
 
@@ -611,7 +609,6 @@ svg {
 --------------------------------------------------------------*/
 #portfolio {
   padding-top: 90px;
-  padding-bottom: 85px;
 }
 
 .portfolio .portfolio-item {
@@ -887,7 +884,7 @@ svg {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #8590c0;
   border: 0;
   padding: 10px 24px;
@@ -896,7 +893,7 @@ svg {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #996699;
 }
 
